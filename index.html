@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Pemesanan Mobil Travel</title>
+</head>
+<body>
+  <form action="#">
+      <h2>Form Pemesanan Mobil Travel</h2>
+    <table>
+      <tr>
+        <td>Nama Penumpang:</td>
+        <td><input type="text" name="nama"></td>
+      </tr>
+      <tr>
+        <td>Email:</td>
+        <td><input type="email" name="email" placeholder="nama@gmail.com"></td>
+      </tr>
+      <tr>
+        <td>Nomor HP:</td>
+        <td><input type="tel" name="nomor_hp" placeholder="081234567890"></td>
+      </tr>
+      <tr>
+        <td>Destinasi:</td>
+        <td>
+          <select name="destinasi">
+            <option value="">-- Pilih Destinasi --</option>
+            <option value="Padang">Padang</option>
+            <option value="Aek Loba">Aek Loba</option>
+            <option value="Pematang Siantar">Pematang Siantar</option>
+            <option value="Prapat">Prapat</option>
+            <option value="Pekanbaru">Pekanbaru</option>
+            <option value="Banda Aceh">Banda Aceh</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Tanggal Berangkat:</td>
+        <td><input type="date" name="tanggal"></td>
+      </tr>
+      <tr>
+        <td>Waktu Berangkat:</td>
+        <td><input type="time" name="waktu"></td>
+      </tr>
+      <tr>
+        <td>Jumlah Penumpang:</td>
+        <td><input type="number" name="jumlah" min="1" max="10"></td>
+      </tr>
+      <tr>
+        <td>Pilihan Armada:</td>
+        <td>
+          <input type="radio" name="armada" value="Hiace"> Mobil Hiace<br>
+          <input type="radio" name="armada" value="Bus Laksana"> Bus Laksana<br>
+          <input type="radio" name="armada" value="ELF"> ELF
+        </td>
+      </tr>
+      <tr>
+        <td>Layanan Tambahan:</td>
+        <td>
+          <input type="checkbox" name="layanan" value="Makanan"> Makanan<br>
+          <input type="checkbox" name="layanan" value="Air Mineral"> Air Mineral<br>
+          <input type="checkbox" name="layanan" value="Selimut"> Selimut
+        </td>
+      </tr>
+      <tr>
+        <td>Upload Identitas:</td>
+        <td><input type="file" name="ktp" accept=".jpg,.jpeg,.png,.pdf"></td>
+      </tr>
+      <tr>
+        <td colspan="2" >
+          <input type="submit" value="Submit">
+        </td>
+      </tr>
+    </table>
+  </form>
+  </form>
+</body>
+</html>
